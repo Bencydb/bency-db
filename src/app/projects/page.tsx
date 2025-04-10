@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 export default function Projects() {
     return (
         <>
-            <Navbar />
+            <Navbar/>
             <main className="min-h-screen bg-gradient-to-r from-[#F5DEB3] to-[#FFDBDB] text-gray-900 pt-16">
                 <div className="max-w-7xl mx-auto px-6 lg:px-8 py-8">
                     <h1 className="text-5xl font-extrabold text-center text-gray-900 mb-8">Projects</h1>
@@ -29,7 +29,7 @@ export default function Projects() {
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                         <Link href="/">
                             <div className="bg-gradient-to-r from-[#F5DEB3] to-[#FFDBDB] rounded-lg shadow-lg
-        o                       verflow-hidden hover:shadow-2xl hover:scale-105 transition-transform">
+                             overflow-hidden hover:shadow-2xl hover:scale-105 transition-transform">
                                 <div className="relative w-full h-48">
                                     <Image
                                         src="/portfolio.jpg"
@@ -42,16 +42,17 @@ export default function Projects() {
                                 <div className="p-6">
                                     <h2 className="text-2xl font-bold text-[#FF5733] mb-2">Portfolio Website</h2>
                                     <p className="text-gray-700 mb-4">
-                                        Designed and developed a responsive personal portfolio showcasing skills and projects using React and Tailwind CSS.
+                                        Designed and developed a responsive personal portfolio showcasing skills
+                                        and projects using React and Tailwind CSS.
                                     </p>
                                     <div className="flex flex-wrap gap-4 items-center">
                                     <span className="flex items-center justify-center px-3 py-2 rounded-full shadow-sm">
                                         <FaReact className="text-[#61DBFB] w-10 h-10" />
                                     </span>
-                                                            <span className="flex items-center justify-center px-3 py-2 rounded-full shadow-sm">
+                                        <span className="flex items-center justify-center px-3 py-2 rounded-full shadow-sm">
                                         <RiTailwindCssFill className="text-[#38B2AC] w-10 h-10" />
                                     </span>
-                                                            <span className="flex items-center justify-center px-3 py-2 rounded-full shadow-sm">
+                                        <span className="flex items-center justify-center px-3 py-2 rounded-full shadow-sm">
                                         <RiNextjsFill className="text-black w-10 h-10" />
                                     </span>
                                     </div>
@@ -59,7 +60,6 @@ export default function Projects() {
                             </div>
                         </Link>
 
-                        {/* Inventory & Label Automation Web App */}
                         <a
                             href="https://aunt-rossie.onrender.com/"
                             rel="noopener noreferrer"
@@ -94,7 +94,6 @@ export default function Projects() {
                             </div>
                         </a>
 
-                        {/* Durham Pharmacy */}
                         <a
                             href="https://durham-pharmacy.onrender.com/"
                             rel="noopener noreferrer"
@@ -129,7 +128,7 @@ export default function Projects() {
                             </div>
                         </a>
 
-                        {/* Hearts */}
+
                         <a
                             href="https://github.com/Bencydb/Hearts"
                             rel="noopener noreferrer"
