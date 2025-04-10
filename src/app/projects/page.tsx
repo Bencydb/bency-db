@@ -29,7 +29,7 @@ export default function Projects() {
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                         <Link href="/">
                             <div className="bg-gradient-to-r from-[#F5DEB3] to-[#FFDBDB] rounded-lg shadow-lg
-        o                       verflow-hidden hover:shadow-2xl hover:scale-105 transition-transform">
+                               overflow-hidden hover:shadow-2xl hover:scale-105 transition-transform">
                                 <div className="relative w-full h-48">
                                     <Image
                                         src="/portfolio.jpg"
