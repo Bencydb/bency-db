@@ -50,11 +50,11 @@ export default function Resume() {
                                     bency.danielbinu@dcmail.ca
                                 </a>
                                 <div className="flex gap-4">
-                                    <a href="https://github.com/your-github-profile" target="_blank"
+                                    <a href="https://github.com/Bencydb" target="_blank"
                                        rel="noopener noreferrer">
                                         <FaGithub className="w-6 h-6 sm:w-8 sm:h-8 text-black"/>
                                     </a>
-                                    <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank"
+                                    <a href="https://www.linkedin.com/in/bency-daniel-binu-804510248/" target="_blank"
                                        rel="noopener noreferrer">
                                         <FaLinkedin className="w-6 h-6 sm:w-8 sm:h-8 text-blue-500"/>
                                     </a>
