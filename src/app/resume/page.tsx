@@ -72,11 +72,11 @@ export default function Resume() {
                             <div className="bg-gradient-to-r from-[#F5DEB3] to-[#FFDBDB] p-4 rounded-lg shadow-md">
                                 <h2 className="text-lg font-bold text-[#FF5733] text-center">Personal Profile</h2>
                                 <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed">
-                                    A passionate and detail-oriented software developer with a strong foundation in
-                                    full-stack development. I am a recent graduate of Durham College, holding a 3-year
-                                    Advanced Diploma in Computer Programming & Analysis with a stellar GPA of 4.2. I
-                                    thrive on building scalable and user-friendly applications, while continuously
-                                    learning and growing alongside the tech industry.
+                                    Detail-oriented and enthusiastic Junior Developer with a strong foundation in web development, responsive UI
+                                    design, and object-oriented programming. Recent graduate of Durham College’s Advanced Computer Programming & Analysis
+                                    program (GPA: 4.16), with hands-on experience in building scalable front-end interfaces using HTML, CSS, TypeScript and
+                                    React.js. Passionate about transforming Figma designs into pixel-perfect web pages and contributing to
+                                    fast-paced, collaborative development environments.
                                 </p>
                             </div>
                             <div className="bg-gradient-to-r from-[#F5DEB3] to-[#FFDBDB] p-4 shadow-md rounded-lg">
@@ -88,7 +88,7 @@ export default function Resume() {
                                             <Image
                                                 src="/logo.png"
                                                 alt="Kuwota Logo"
-                                                width={40}
+                                                width={50}
                                                 height={40}
                                                 className="rounded"
                                             />
@@ -102,7 +102,7 @@ export default function Resume() {
                                                 <FaLink className="w-4 h-4 sm:w-5 sm:h-5"/>
                                             </a>
                                         </td>
-                                        <td className="py-4 px-2 sm:px-6 text-right text-sm sm:text-base text-gray-600">April 2025 - May 2025</td>
+                                        <td className="py-4 px-2 sm:px-6 text-right text-sm sm:text-base text-gray-600">March 2025 - June 2025</td>
                                     </tr>
 
                                     <tr>
@@ -111,11 +111,52 @@ export default function Resume() {
                                     <tr>
                                         <td className="pb-4 px-2 sm:px-6 text-sm sm:text-base text-gray-700" colSpan={2}>
                                             <ul className="list-disc ml-4 sm:ml-5 mt-2 space-y-1">
-                                                <li>Assisted in developing web solutions, ensuring clean and optimized code.</li>
-                                                <li>Collaborated with cross-functional teams to integrate new features.</li>
+                                                <li>Rebuilt a journaling app using <strong>Next.js</strong>, <strong>TypeScript</strong>, and <strong>Tailwind CSS</strong>,
+                                                    improving frontend performance and responsiveness by over <strong>80%</strong>.</li>
+                                                <li>Integrated <strong>BetterAuth</strong>, enabling seamless authentication support for up to <strong>10,000 users</strong> with scalable <strong>token-based access</strong>.</li>
+                                                <li>Developed <strong>real-time messaging</strong> and updates using <strong>WebSockets</strong>, reducing latency to under <strong>100ms</strong> for connected clients.</li>
+                                                <li>Worked in a <strong>5-member Scrum team</strong>, contributing to <strong>sprints</strong>, <strong>stand-ups</strong>, and <strong>code reviews</strong> using <strong>Git</strong> and <strong>Slack</strong>.</li>
+                                                <li>Performed over <strong>100 code reviews</strong>, ensuring code quality, consistency, and adherence to best practices across the team.</li>
                                             </ul>
                                         </td>
                                     </tr>
+                                    <tr>
+                                        <td className="py-4 px-2 sm:px-6 font-bold text-gray-800 flex items-center gap-2 sm:gap-3">
+                                            <Image
+                                                src="https://mydcsa.ca/wp-content/uploads/2024/09/dcsa-logo-solid-purple.svg"
+                                                alt="Durham College Student Association Logo"
+                                                width={120}
+                                                height={80}
+                                                className="rounded"
+                                            />
+                                            <span className="text-sm sm:text-base">Durham College Student Association</span>
+                                            <a
+                                                href="https://mydcsa.ca/"
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="text-blue-500 hover:text-blue-700"
+                                            >
+                                                <FaLink className="w-4 h-4 sm:w-5 sm:h-5" />
+                                            </a>
+                                        </td>
+                                        <td className="py-4 px-2 sm:px-6 text-right text-sm sm:text-base text-gray-600">
+                                            April 2024 – May 2025
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td className="pb-4 px-2 sm:px-6 text-sm sm:text-base text-gray-700" colSpan={2}>Games Room Attendant (On-Campus)</td>
+                                    </tr>
+                                    <tr>
+                                        <td colSpan={2} className="pb-6 px-2 sm:px-6 text-sm sm:text-base text-gray-700">
+                                            <ul className="list-disc list-inside space-y-1">
+                                                <li>Facilitated DCSA promotions and ensured smooth event operations, increasing student engagement by over <strong>15%</strong>.</li>
+                                                <li>Provided technical support and resolved gaming equipment issues for over <strong>200 students daily</strong>, reducing average downtime by <strong>30%</strong>.</li>
+                                                <li>Maintained and audited game room inventory of over <strong>150 items</strong>, ensuring <strong>100%</strong> accurate checkout tracking.</li>
+                                                <li>Designed simple promotional pages and event posters using <strong>Canva</strong> and <strong>HTML</strong>.</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+
                                     </tbody>
                                 </table>
                             </div>
